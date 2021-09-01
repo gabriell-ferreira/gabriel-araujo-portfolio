@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Aqua Grotesque', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #050505;
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+@import url('http://fonts.cdnfonts.com/css/aqua-grotesque');
+
+:root {
+  --dark-gray: #9B9B9B;
+  --blue-base: #410FD3;
+  --white: #FAFAFA;
+  --black-bg: #050505
+}
