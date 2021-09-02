@@ -3,6 +3,7 @@
     <Menu />
     <About />
     <Overview />
+    <Skills />
   </div>
 </template>
 
@@ -10,11 +11,12 @@
 import Menu from './components/menu.component.vue'
 import About from './components/about.component.vue'
 import Overview from './components/overview.component.vue'
+import Skills from './components/skills.component.vue'
 
 export default {
   name: 'App',
   components: {
-    Menu, About, Overview
+    Menu, About, Overview, Skills
   }
 }
 </script>

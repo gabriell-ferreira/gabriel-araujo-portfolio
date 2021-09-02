@@ -5,16 +5,19 @@
         <img src="../assets/Avatar.jpg" alt="Gabriel Araujo Ferreira">
       </div>
       <div class="social-icons">
-        <img src="../assets/Email.svg" alt="Email">
-        <img src="../assets/Git.svg" alt="Github">
-        <img src="../assets/Linkedin.svg" alt="Linkedin">
+        <a target="_blank" href="mailto:araujogabriel80@hotmail.com?subject=Olá%20podemos%20conversar?">
+          <img src="../assets/Email.svg" alt="Email">
+        </a>
+        <a target="_blank" href="https://github.com/gabriell-ferreira">
+          <img src="../assets/Git.svg" alt="Github">
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/gabriel-ferreira-7a92241a3/">
+          <img src="../assets/Linkedin.svg" alt="Linkedin">
+        </a>
       </div>
     </div>
     <div class="desc">
-      <div class="title">
-        <img src="../assets/Icon.svg" alt="Icon">
-        <h1>Sobre</h1>
-      </div>
+      <SectionTitle title='Sobre'/>
       <p>Conheça um pouco sobre mim</p>
 
       <div class="about-me">
@@ -30,8 +33,11 @@
 </template>
 
 <script>
+import SectionTitle from './sectionTitle.component.vue'
 export default {
-
+  components: {
+    SectionTitle
+  }
 }
 </script>
 
@@ -69,7 +75,7 @@ export default {
     margin-top: 2rem;
   }
 
-  .social-icons img:nth-child(2){
+  .social-icons a:nth-child(2){
     margin: 0 50px
   }
 
@@ -87,15 +93,6 @@ export default {
   }
   .desc .about-me p:first-of-type {
     margin-bottom: 1rem;
-  }
-  .title {
-    display: flex;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
-  .title h1 {
-    font-size: 4rem;
-    margin-left: 1rem;
   }
 
   @media (max-width: 900px){

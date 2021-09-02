@@ -9,13 +9,13 @@
           <a href="#overview">Sobre</a>
         </li>
         <li>
-          <a href="#">Skills</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#">Trabalhos</a>
+          <a href="#jobs">Trabalhos</a>
         </li>
         <li>
-          <a href="#">Contato</a>
+          <a href="#contact">Contato</a>
         </li>
       </ul>
     </nav>
@@ -26,13 +26,13 @@
           <a href="#overview">Sobre</a>
         </li>
         <li>
-          <a href="#">Skills</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#">Trabalhos</a>
+          <a href="#jobs">Trabalhos</a>
         </li>
         <li>
-          <a href="#">Contato</a>
+          <a href="#contact">Contato</a>
         </li>
       </ul>
     </nav>
