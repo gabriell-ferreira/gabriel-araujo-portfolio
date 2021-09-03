@@ -4,6 +4,7 @@
     <About />
     <Overview />
     <Skills />
+    <Jobs />
   </div>
 </template>
 
@@ -12,11 +13,12 @@ import Menu from './components/menu.component.vue'
 import About from './components/about.component.vue'
 import Overview from './components/overview.component.vue'
 import Skills from './components/skills.component.vue'
+import Jobs from './components/jobs.component.vue'
 
 export default {
   name: 'App',
   components: {
-    Menu, About, Overview, Skills
+    Menu, About, Overview, Skills, Jobs
   }
 }
 </script>

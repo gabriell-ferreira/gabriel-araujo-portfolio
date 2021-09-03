@@ -16,6 +16,7 @@ export default {
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
+    margin-top: 5rem;
   }
   .title h1 {
     font-size: 4rem;
